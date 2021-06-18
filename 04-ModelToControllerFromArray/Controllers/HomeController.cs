@@ -2,7 +2,7 @@
 using _03_ModelToControllerFromClass.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace _03_ModelToControllerFromClass.Controllers
+namespace _04_ModelToControllerFromArray.Controllers
 {
     public class HomeController : Controller
     {
@@ -11,9 +11,10 @@ namespace _03_ModelToControllerFromClass.Controllers
             return View();
         }
 
-        public string ProceedResult(User user)
+        public string ProceedResult(User[] users)
         {
-            return $"{user.FirstName} {user.Surname} - {user.Age} years old";
+            return users.Aggregate("", (current, user) => current + $"{user.FirstName} {user.Surname} - {user.Age} years old\n");
         }
+
     }
 }

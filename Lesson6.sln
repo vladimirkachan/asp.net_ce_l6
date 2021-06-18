@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-ModelToControllerFromFie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-ModelToControllerFromClass", "03-ModelToControllerFromClass\03-ModelToControllerFromClass.csproj", "{9846B956-6D4A-454F-9AB9-0C125635734D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-ModelToControllerFromArray", "04-ModelToControllerFromArray\04-ModelToControllerFromArray.csproj", "{9670B3E5-E620-45EB-85D1-F1174276C7A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9846B956-6D4A-454F-9AB9-0C125635734D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9846B956-6D4A-454F-9AB9-0C125635734D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9846B956-6D4A-454F-9AB9-0C125635734D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9670B3E5-E620-45EB-85D1-F1174276C7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9670B3E5-E620-45EB-85D1-F1174276C7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9670B3E5-E620-45EB-85D1-F1174276C7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9670B3E5-E620-45EB-85D1-F1174276C7A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
