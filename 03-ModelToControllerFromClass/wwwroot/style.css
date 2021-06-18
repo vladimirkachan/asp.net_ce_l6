@@ -1,0 +1,3 @@
+﻿h3 { color: green; font-family: 'Franklin Gothic' }
+input[type=text], input[type=number] { border: 2px solid red; border-radius: 3px}
+input[type=submit] { border: 4px solid lime; border-radius: 8px}
